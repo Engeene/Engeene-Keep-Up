@@ -1,0 +1,162 @@
+body {
+	font-family: arial, sans-serif;
+	color: #777777;
+	font-size: 12px;
+	text-align: justify;
+	width: 435px;
+	margin: 0;
+	padding: 0px;
+	overflow: hidden;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FFA430;
+}
+
+img {
+	max-width: 80px;
+	max-height: 75px;
+}
+
+#titleHeader {
+	left: 10px;
+	position: absolute;
+	font-weight: bold;
+	color: #36C;
+}
+
+#favorites {
+	right: 10px;
+	position: absolute;
+	font-weight: normal;
+	color: #36C;
+}
+
+.notice {
+	border-radius: 3px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	width: 200px;
+	margin : 0 auto;
+	color: #000000;
+	background-color: #FFF1A8;
+	font-weight: bold;
+}
+
+.header {
+	position: relative;
+	background-color: #FFFFFF;
+	height: 30px;
+	line-height: 30px;
+}
+
+.container {
+	display: none;
+}
+
+.current {
+	display: block;
+}
+
+.containerArticles {
+	height: 570px;
+	overflow-y: auto;
+}
+
+#notFound {
+	height: 30px;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.article {
+	height: 120px;
+	border-top: 1px solid #D7D7D7;
+	background-color: #FFFFFF;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+}
+
+.titleArticle {
+	position: absolute;
+	height: 30px;
+	width: 360px;
+}
+
+.imgArticle {
+	position: absolute;
+	top: 30px;
+	height: 75px;
+	width: 80px;
+	margin-top: 5px;
+	text-align: left;
+}
+
+.descArticle {
+	position: absolute;
+	top: 30px;
+	left: 90px;
+	height: 75px;
+	width: 280px;
+	margin-top: 5px;
+	margin-left: 10px;
+	overflow-y: hidden;
+}
+
+.dateArticle {
+	position: absolute;
+	width: 35px;
+	left: 380px;
+	font-size: 10px;
+	text-align: center;
+}
+
+.authorArticle {
+	position: absolute;
+	top: 105px;
+	height: 15px;
+	width: 370px;
+	margin-top: 8px;
+}
+
+#authorUrl {
+	color: #FFA430;	
+}
+
+.containerFavoriteIcon {
+	position: absolute;
+	top: 30px;
+	left: 380px;
+	width: 35px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+.notFavorite {
+	content: url("../img/notFavorite.png");
+	cursor: pointer;
+}
+
+.favorite {
+	content: url("../img/favorite.png");
+	cursor: pointer;
+}
+
+.boxShadow {
+	height: 3px;
+	position: absolute;
+	top: 27px;
+	width: 435px;
+	-webkit-box-shadow: 0px 2px 3px #DADADA;
+	opacity: 0;
+}
